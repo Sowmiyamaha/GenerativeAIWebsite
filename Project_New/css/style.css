@@ -1,0 +1,480 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #282828;
+}
+
+.gradient-background {
+    background: linear-gradient(180deg, rgba(240, 222, 238, 1) 0%, rgba(250, 250, 250, 0.1) 100%);
+}
+
+/* navbar */
+
+.navbar-shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+}
+
+.navbar div a {
+    color: #3e1c67;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+#contactus {
+    margin-top: 5px;
+    color: white;
+    border: solid #3e1c67;
+    background-color: #3e1c67;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+#insta-icon {
+    background: #3e1c67;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#insta-icon a {
+    color: white;
+    position: relative;
+    bottom: 5px;
+    right: 2px;
+}
+
+.navbar a:hover {
+    font-size: 13px;
+}
+
+
+.sidebar {
+    background-color: #f4cae5;
+    backdrop-filter: blur(10px);
+}
+
+
+
+.header-text {
+    color: #3e1c67;
+    font-weight: 1000;
+}
+
+.explore {
+    text-decoration: none;
+    background-color: #3e1c67;
+    color: white;
+    padding: 0 15px;
+    border-radius: 6px;
+    font-size: small;
+}
+
+.img-cont {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+.header-img-1 {
+    border-radius: 20px;
+}
+
+/* content */
+
+#learn-more {
+    text-decoration: none;
+    background-color: #3e1c67;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.content-text {
+    font-size: medium;
+    text-align: justify;
+}
+
+/* our services */
+
+.our-services p {
+    display: inline;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.our-services {
+    width: 80vw;
+    left: 10vw;
+}
+
+.our-services a {
+    text-decoration: none;
+    color: #282828;
+    transition: 100ms;
+}
+
+.our-services div>div:hover {
+    transform: scale(1.07);
+}
+
+/* our srvices media queries */
+
+@media only screen and (max-width: 1023px) {
+    .our-services div>div {
+        padding: 5px;
+        padding-left: 28%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .our-services div>div {
+        padding-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .our-services img {
+        display: block;
+        padding: 5px;
+    }
+    .our-services div>div {
+        padding-left: 25%;
+        padding-bottom: 25px;
+    }
+}
+
+
+
+.design h4 {
+    color: #3e1c67;
+}
+
+.design-box {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 220px;
+    border-radius: 40px;
+    text-align: center;
+    padding-right: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: 350ms;
+}
+
+.design-box:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 3px 5px #3e1c67;
+}
+
+.design-box img {
+    position: relative;
+    right: 30px;
+    top: 5px;
+}
+
+.design-box p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.design-box h5 {
+    font-weight: 1000;
+    font-size: 23px;
+    padding-top: 10px;
+    color: #3e1c67;
+}
+
+.design-box-num {
+    background-color: #3e1c67;
+    color: white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.design-box-num h5 {
+    padding-top: 5px;
+    color: white;
+}
+
+
+
+.box-setting {
+    border: solid black 1px;
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    transition: 350ms;
+}
+
+.box-setting:hover {
+    transform: scale(1.1);
+}
+
+.box-setting img {
+    position: relative;
+    top: 4px;
+    right: 8px;
+    border-radius: 20px;
+}
+
+.box-setting a {
+    text-decoration: none;
+}
+
+.project-learn-more {
+    display: inline;
+    background-color: #3e1c67;
+    color: white;
+    padding: 0 7px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+.set_logo-box {
+    margin-left: 50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 15px 15px 20px;
+    background-color: #f2f2f2;
+    transition: 350ms;
+}
+
+.set_logo-box:hover {
+    transform: scale(1.15);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#img1 {
+    background-image: url(../img/company/1493312317-1888.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background-image: url(../img/company/1_aMPdETil0qXufDMI5Jrz1Q.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#img3 {
+    background-image: url(../img/company/adani.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#img4 {
+    background-image: url(../img/company/honda.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#img5 {
+    background-image: url(../img/company/hyundai.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#img6 {
+    background-image: url(../img/company/images.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#img7 {
+    background-image: url(../img/company/rsz_gettyimages-1064235628.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img8 {
+    background-image: url(../img/company/Tata-Consultancy-Services.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img9 {
+    background-image: url(../img/company/this-tata-group-defies-market-mood-to-rally-10-heres-why.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img10 {
+    background-image: url(../img/company/top-software-companies.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img11 {
+    background-image: url(../img/company/Wipro-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img12 {
+    background-image: url(../img/company/think.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img13 {
+    background-image: url(../img/company/brands-companies-dell-logos-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img14{
+    background-image: url(../img/company/asus-company-logo-graffiti-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#img15{
+    background-image: url(../img/company/chrome-roccat-the-company-logo-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.set_logo div {
+    display: inline-block;
+}
+
+.logos {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 50s slide infinite linear;
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+.footer-icons a {
+    padding: 5px;
+    color: white;
+}
+
+.footer-enquiry a {
+    color: white;
+    font-size: 25px;
+}
+
+#join-now {
+    background-color: white;
+    color: #282828;
+    display: inline;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.join-now-link {
+    text-decoration: none;
+}
+
+.join-now {
+    padding-top: 80px;
+}
+
+.footer i:hover {
+    font-size: 30px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(+100%);
+    transition: all 0.6s;
+}
+
+.com_a {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(-100%);
+    transition: all 0.4s;
+}
+
+.com_a {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateX(-100%);
+    transition: all 0.7s;
+}
+
+
+
+.game{
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(+100%);
+    transition: all 0.7s;
+}
+.hidden-b{
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(-100%);
+    transition: all 0.7s;
+}
+
+
+.ai_img {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(-100%);
+    transition: all 500ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
